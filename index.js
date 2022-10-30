@@ -11,7 +11,7 @@ const { AsyncLocalStorage } = require('async_hooks');
 let chart = []
 
 
-let mainAddr = "0x000000dbE4BaDD97B147d62E923eE62E9842A94F";
+let mainAddr = "you addr";
 
 let rawData;
 
@@ -107,12 +107,6 @@ function initContract() {
 
 function initWallet() {
     wallet = web3.eth.accounts.privateKeyToAccount(privateKey);
-    if(wallet.address != web3.utils.toChecksumAddress(mainAddr)){
-        term.bold.red(figlet.textSync(`Halt !`))
-        term.red.bold('\nThis is wallet is not authorized to use this bot\n');
-        term.yellow.bold('\nKindly dm @NeoMitashi or @ImDev03 in telegram to get authorized\n\n');
-        process.exit(1);
-    }
 }
 
 async function sleep(ms) {
