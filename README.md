@@ -2,8 +2,8 @@
 
 old sniper bot i used to use
 for uni v2
-contract is verified in bscscan
-most likely will not work, will upload userdata stuff soon
+contract is verified in bscscan.
+most likely will not work
 ![Titan Interface](https://github.com/NeoMitashi/TitanSniperBot/blob/main/Titan.PNG)
 
 
