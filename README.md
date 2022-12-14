@@ -1,19 +1,11 @@
 # Titan-Sniper-Bot
 
-old sniper bot i used to use
-for uni v2
+old sniper bot i used to use for uni v2.
 contract is verified in bscscan.
 most likely will not work
 ![Titan Interface](https://github.com/NeoMitashi/Titan-Sniper-Bot/blob/main/image.png)
 
 
-
-## Smart Contract 
-The bot uses a smart contract to buy and sell tokens. This can be used to add additional features to the bot. The bot also has a script to deploy the smart contract (source code of the smart contract is verified on block chain explorer). 
-* It gives you the ability to make multi wallet buys within the same transaction.
-* Can be used to implement fail-safe which will revert the transaction (eg: if tax is above the maximum threshold, if you get blackListed, etc.).
-* It can do multiple internal contract calls within the same transaction.
-* And can work as a honeyhot checker contract aswell.
 
 ### Sniper
 * Blind Mode => Buy any token on launch with custom gasPrice, gasLimit and the maximum tax tolerance. The transaction will revert if the token has higher tax than the limit thus refunding the remaining gas. 
@@ -35,5 +27,5 @@ The bot uses a smart contract to buy and sell tokens. This can be used to add ad
 
 ### Node Tests
 * Test your wss or http node 
-* Shows you the nodes latency in detail
+* Shows you the nodes latency
 
